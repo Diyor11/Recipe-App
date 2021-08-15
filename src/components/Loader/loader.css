@@ -1,0 +1,23 @@
+.loader{
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .loader::after{
+        content: '\2026';
+        display: inline-block;
+        overflow: hidden;
+        animation: dots steps(4, end) 2s infinite;
+        vertical-align: bottom;
+        width: 0px;
+    }
+    
+    
+    @keyframes dots{
+        to {
+            width: 3.4rem;
+        }
+    }
