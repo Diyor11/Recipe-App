@@ -1,4 +1,4 @@
-<----- -https://recipebydiyor.netlify.app/- ----->
+<----- -https://recipebydiyor.netlify.app/ ----->
 
 # Getting Started with Create React App
 
